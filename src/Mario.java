@@ -30,6 +30,8 @@ public class Mario extends MovingImage {
 	public void act(ArrayList<Shape> obstacles) {
 		vY += 0.7;
 		super.y+=vY;
+		
+		System.out.println("test");
 	}
 
 
