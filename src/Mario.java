@@ -21,7 +21,7 @@ public class Mario extends MovingImage {
 	// METHODS
 	public void walk(int dir) {
 		x += dir*5;
-		System.out.println("test");
+		
 	}
 
 	public void jump() {
@@ -31,7 +31,7 @@ public class Mario extends MovingImage {
 	public void act(ArrayList<Shape> obstacles) {
 		vY += 0.7;
 		super.y+=vY;
-		
+		System.out.println("test");
 	}
 
 
