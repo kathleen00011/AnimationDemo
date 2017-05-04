@@ -20,7 +20,7 @@ public class Mario extends MovingImage {
 
 	// METHODS
 	public void walk(int dir) {
-			super.moveByAmount(dir, 0);
+		x += dir*5;
 	}
 
 	public void jump() {
@@ -28,8 +28,7 @@ public class Mario extends MovingImage {
 	}
 
 	public void act(ArrayList<Shape> obstacles) {
-		// FINISH ME!
-		vY += 0.5;
+		vY += 0.7;
 		super.y+=vY;
 	}
 
